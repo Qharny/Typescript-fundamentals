@@ -1,7 +1,6 @@
 
-function log(text){
-    console.log(text);
+function myText(){
+    console.log("My first typescript code");
 }
-var text = "My first typescript code";
 
-log(text);
+myText();
