@@ -1,9 +1,9 @@
 var num = 1;
-let myNumber = 3;
+// let myNumber = 3;
 
 
 // a little function
-function generate(){
+function generate(): void{
     for (var i = 0; i < 5; i++)
     {
         console.log(i);
