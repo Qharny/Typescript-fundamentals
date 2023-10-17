@@ -14,10 +14,11 @@ var num = 1;
 
 
 // using the let declaration
-function printNumbers() {
-    for (let j=0 ;j<6;j++){
-        console.log("The number is " + j)
-        }
+function loop(){
+    for(var x = 0; x < 5; x++){
+        console.log(x);
     }
+    console.log("Finally: " + x);
+}
 
-printNumbers();
+loop();
