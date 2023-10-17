@@ -3,11 +3,21 @@ var num = 1;
 
 
 // a little function
-function generate(): void{
-    for (var i = 0; i < 5; i++)
-    {
-        console.log(i);
-    }
-}
+// function generate(){
+//     for (var i = 0; i < 5; i++)
+//     {
+//         console.log(i);
+//     }
+// }
 
-generate();
+// generate();
+
+
+// using the let declaration
+function printNumbers() {
+    for (let j=0 ;j<6;j++){
+        console.log("The number is " + j)
+        }
+    }
+
+printNumbers();
